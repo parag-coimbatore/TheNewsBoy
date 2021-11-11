@@ -37,8 +37,7 @@ export default class App extends Component {
       />
         <Home/>
         <Switch>
-        
-      
+         
           <Route exact path="/entertainment"><News setProgress={this.setprogress} key="entertainment" pageSize = {this.pageSize} country="in" category="entertainment"/></Route>
 
           <Route exact path="/business"><News setProgress={this.setprogress} key="business" pageSize = {this.pageSize} country="in" category="business"/></Route>

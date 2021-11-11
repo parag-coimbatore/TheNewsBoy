@@ -58,8 +58,7 @@ export class News extends Component {
                 articles: parsedData.articles,
                 loading:false
             }
-        )
-        
+        )   
     }
 
      fetchMoreData = async () => {

@@ -5,7 +5,6 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-
         <nav class="navbar navbar-expand-lg navbar-light bg-primary">
           <div className="container-fluid">
             <img
