@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/TheNewsBoy%20%20/static/css/main.0cd66c00.chunk.css",
+    "main.js": "/TheNewsBoy%20%20/static/js/main.6d2f7788.chunk.js",
+    "main.js.map": "/TheNewsBoy%20%20/static/js/main.6d2f7788.chunk.js.map",
+    "runtime-main.js": "/TheNewsBoy%20%20/static/js/runtime-main.60edfac1.js",
+    "runtime-main.js.map": "/TheNewsBoy%20%20/static/js/runtime-main.60edfac1.js.map",
+    "static/js/2.47f92610.chunk.js": "/TheNewsBoy%20%20/static/js/2.47f92610.chunk.js",
+    "static/js/2.47f92610.chunk.js.map": "/TheNewsBoy%20%20/static/js/2.47f92610.chunk.js.map",
+    "static/js/3.ad5c90ed.chunk.js": "/TheNewsBoy%20%20/static/js/3.ad5c90ed.chunk.js",
+    "static/js/3.ad5c90ed.chunk.js.map": "/TheNewsBoy%20%20/static/js/3.ad5c90ed.chunk.js.map",
+    "index.html": "/TheNewsBoy%20%20/index.html",
+    "static/css/main.0cd66c00.chunk.css.map": "/TheNewsBoy%20%20/static/css/main.0cd66c00.chunk.css.map",
+    "static/js/2.47f92610.chunk.js.LICENSE.txt": "/TheNewsBoy%20%20/static/js/2.47f92610.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.60edfac1.js",
+    "static/js/2.47f92610.chunk.js",
+    "static/css/main.0cd66c00.chunk.css",
+    "static/js/main.6d2f7788.chunk.js"
+  ]
+}
