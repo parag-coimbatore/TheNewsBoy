@@ -102,8 +102,7 @@ export class News extends Component {
             <div className="container my-3">
                 <h2 className="text-center" >Top {this.capitalizeFirstLetter(this.props.category)} Headlines - By TheNewsBoy</h2> 
                 <h5 className="text-center"> Developed by Parag Coimbatore</h5>
-                {/* {this.state.loading && <Spinner/>} */}
-                
+                {/* {this.state.loading && <Spinner/>} */}     
                 <InfiniteScroll
                 dataLength={this.state.articles.length}
                 next={this.fetchMoreData}

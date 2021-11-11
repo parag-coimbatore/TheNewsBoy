@@ -5,7 +5,7 @@ export class Navbar extends Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-primary ">
+        <nav className="navbar navbar-expand-lg navbar-dark bg-primary">
           <div className="container-fluid">
             <img
               src="https://upload.wikimedia.org/wikipedia/commons/0/07/News.png"
@@ -13,10 +13,11 @@ export class Navbar extends Component {
               width="30"
               height="24"
             />
-            <Link className="navbar-brand" to="/">
+            
+            <Link className="navbar-brand" to="/" my-300>
               TheNewsBoy
             </Link>
-            
+        
             <div
               className="collapse navbar-collapse"
               id="navbarSupportedContent"

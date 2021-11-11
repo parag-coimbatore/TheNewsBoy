@@ -6,7 +6,8 @@ import News from './components/News';
 import {
   BrowserRouter as Router,
   Switch,
-  Route
+  Route,
+  Link
 } from "react-router-dom";
 import Home from './components/Home';
 import LoadingBar from 'react-top-loading-bar'
@@ -36,7 +37,6 @@ export default class App extends Component {
       />
         <Home/>
         <Switch>
-       
         
           <Route exact path = "/home"></Route>
       
@@ -53,6 +53,7 @@ export default class App extends Component {
           <Route exact path="/sports"><News setProgress={this.setprogress} key="sports" pageSize = {this.pageSize} country="in" category="sports"/></Route>
 
           <Route exact path="/technology"><News setProgress={this.setprogress} key="technology" pageSize = {this.pageSize} country="in" category="technology"/></Route>   
+
 
         </Switch>
 
