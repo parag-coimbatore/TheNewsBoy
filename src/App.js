@@ -4,10 +4,10 @@ import React, { Component } from 'react'
 import Navbar from './components/Navbar';
 import News from './components/News';
 import {
-  BrowserRouter as Router,
+  HashRouter  as Router,
   Switch,
   Route,
-  Link
+  // Link
 } from "react-router-dom";
 import Home from './components/Home';
 import LoadingBar from 'react-top-loading-bar'
